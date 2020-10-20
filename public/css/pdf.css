@@ -1,0 +1,57 @@
+table {
+    width: 100%;
+    font-family: 'Helvetica';
+    border-collapse: collapse;
+}
+
+#tabla th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #8A311F;
+    color: white;
+}
+
+#tabla td,
+#tabla th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+[class*="col-"] {
+    display: inline-block;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+h4,
+h5 {
+    text-transform: uppercase;
+    line-height: 3px;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+#firma {
+    margin-left: 20px !important;
+}
+
+#linea {
+    width: 70%;
+    border-bottom: 2px solid black;
+    display: inline-block;
+}

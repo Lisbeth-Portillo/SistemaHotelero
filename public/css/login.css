@@ -1,0 +1,45 @@
+/*Diseño del cuerpo*/
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    font-family: Cambria;
+}
+
+
+/*Diseño del contenedor del login  */
+
+.bg-custom {
+    background-color: #8A311F;
+}
+
+.btn-custom {
+    background-color: #3e3d56;
+    color: #fff;
+}
+
+.btn-custom:hover {
+    background-color: #33313f;
+    color: #fff;
+}
+
+
+/*Diseño de las etiquetas*/
+
+label {
+    color: #fff;
+}
+
+#cont1 {
+    background-color: #fff;
+}
+
+
+/*Adaptabilidad esconde la imagen*/
+
+@media(max-width: 932px) {
+    .display-none {
+        display: none !important;
+    }
+}
